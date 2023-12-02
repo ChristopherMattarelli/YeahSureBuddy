@@ -10381,3 +10381,8 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.12.02-20.43.29:827][469]AssetCheck: New page: Asset Save: Level_2
 [2023.12.02-20.43.29:827][469]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level_2.Level_2
 [2023.12.02-20.47.08:037][276]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ThirdPerson/Maps/ThirdPersonMap does not exist, will not scan.
+[2023.12.02-20.51.45:278][109]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=HP E27k G5 (NVIDIA High Definition Audio), InstanceID=1
+[2023.12.02-20.51.45:595][109]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=29136
+[2023.12.02-20.51.45:930][110]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{4de55f6f-4364-424f-b750-112140bfff50}, Name=HP E27k G5 (NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=27.41
+[2023.12.02-20.51.45:930][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.12.02-20.51.45:932][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
