@@ -1409,3 +1409,693 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.12.02-00.48.36:219][ 16]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
 [2023.12.02-00.48.36:228][ 17]LogStaticMesh: Warning: Invalid usage flag on material [PreviewShadowIndicatorMaterial] for Nanite static mesh [EditorSphere] - forcing default material instead.
 [2023.12.02-00.48.36:228][ 17]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.51.46:546][817]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.46:573][818]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: ================================================
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: Total job queries 32, among them cache hits 6 (18.75%)
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: Tracking 26 distinct input hashes that result in 24 distinct outputs (92.31%)
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: RAM used: 613.84 KiB of 1.60 GiB budget. Usage: 0.04%
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.12.02-00.51.46:594][819]LogShaderCompilers: Display: ================================================
+[2023.12.02-00.51.46:633][821]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.51.46:674][823]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.51.46:675][823]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.51.46:685][824]LogStaticMesh: Warning: Invalid usage flag on material [PreviewShadowIndicatorMaterial] for Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.51.46:685][824]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.51.47:143][877]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.02-00.51.47:148][877]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.02-00.51.47:149][877]LogWorldPartition: Display: GenerateStreaming started...
+[2023.12.02-00.51.47:149][877]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.12.02-00.51.47:149][877]LogWorldPartition: Display: GetPartitionedActors took 9 us
+[2023.12.02-00.51.47:150][877]LogWorldPartition: Display: GenerateStreaming took 120 us
+[2023.12.02-00.51.47:150][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-00.51.47:150][877]PIE: New page: PIE session: TopDownMap (Dec 1, 2023, 2:51:47 PM)
+[2023.12.02-00.51.47:153][877]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.12.02-00.51.47:153][877]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.12.02-00.51.47:153][877]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.51.47:157][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003983s)
+[2023.12.02-00.51.47:157][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.004010s)
+[2023.12.02-00.51.47:157][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.51.47:157][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.51.47:157][877]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.02-00.51.47:158][877]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.02-00.51.47:158][877]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.02-00.51.47:158][877]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.02-00.51.47:159][877]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.02-00.51.47:159][877]LogWorldPartition: Display: WorldPartition initialize took 847 us (total: 186 ms)
+[2023.12.02-00.51.47:159][877]LogPlayLevel: PIE: World Init took: (0.001654s)
+[2023.12.02-00.51.47:166][877]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.02-00.51.47:166][877]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.12.02-00.51.47:166][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-00.51.47:166][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-00.51.47:166][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-00.51.47:166][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-00.51.47:166][877]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-00.51.47:166][877]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.02-00.51.47:166][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-00.51.47:166][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-00.51.47:166][877]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-00.51.47:166][877]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-00.51.47:166][877]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-00.51.47:168][877]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-00.51.47:188][877]LogAudioMixer: Display: Using Audio Hardware Device HP E27k G5 (NVIDIA High Definition Audio)
+[2023.12.02-00.51.47:189][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-00.51.47:189][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-00.51.47:189][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-00.51.47:190][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.12.02-00.51.47:190][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.12.02-00.51.47:191][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.12.02-00.51.47:191][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.12.02-00.51.47:191][877]LogInit: FAudioDevice initialized with ID 2.
+[2023.12.02-00.51.47:191][877]LogAudio: Display: Audio Device (ID: 2) registered with world 'TopDownMap'.
+[2023.12.02-00.51.47:191][877]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.02-00.51.47:194][877]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.12.02-00.51.47:195][877]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.01-19.51.47
+[2023.12.02-00.51.47:195][877]LogWorld: Bringing up level for play took: 0.001439
+[2023.12.02-00.51.47:197][877]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.12.02-00.51.47:208][877]PIE: Server logged in
+[2023.12.02-00.51.47:209][877]PIE: Play in editor total start time 0.06 seconds.
+[2023.12.02-00.51.47:265][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:265][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:265][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:266][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:266][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:266][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:267][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:267][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:268][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:268][877]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:275][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:276][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:276][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:276][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:277][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:277][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:277][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:278][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:279][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.47:279][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.49:967][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.51.49:967][ 66]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.51.49:967][ 66]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.51.49:967][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.51.49:968][ 66]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.02-00.51.49:970][ 66]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-00.51.49:972][ 66]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.51.49:979][ 66]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.02-00.51.49:979][ 66]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.12.02-00.51.49:979][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.02-00.51.49:980][ 66]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.12.02-00.51.49:983][ 66]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.51.49:985][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.02-00.51.50:014][ 66]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.50:052][ 67]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.50:070][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.12.02-00.51.51:493][163]Cmd: DELETE
+[2023.12.02-00.51.51:493][163]Cmd: ACTOR DELETE
+[2023.12.02-00.51.51:495][163]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.51.51:503][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.02-00.51.51:504][163]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.51.57:203][539]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.02-00.51.57:208][539]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.02-00.51.57:218][539]LogWorldPartition: Display: GenerateStreaming started...
+[2023.12.02-00.51.57:218][539]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.12.02-00.51.57:218][539]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 14 us)
+[2023.12.02-00.51.57:218][539]LogWorldPartition: Display: GenerateStreaming took 99 us (total: 220 us)
+[2023.12.02-00.51.57:218][539]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-00.51.57:218][539]PIE: New page: PIE session: TopDownMap (Dec 1, 2023, 2:51:57 PM)
+[2023.12.02-00.51.57:218][539]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.51.57:222][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003621s)
+[2023.12.02-00.51.57:222][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.003644s)
+[2023.12.02-00.51.57:222][539]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.51.57:222][539]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.51.57:222][539]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.02-00.51.57:223][539]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.02-00.51.57:223][539]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.02-00.51.57:223][539]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.02-00.51.57:223][539]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.02-00.51.57:223][539]LogWorldPartition: Display: WorldPartition initialize took 822 us (total: 187 ms)
+[2023.12.02-00.51.57:223][539]LogPlayLevel: PIE: World Init took: (0.001630s)
+[2023.12.02-00.51.57:230][539]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.12.02-00.51.57:231][539]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.12.02-00.51.57:231][539]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-00.51.57:231][539]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-00.51.57:231][539]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-00.51.57:231][539]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-00.51.57:231][539]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-00.51.57:231][539]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.02-00.51.57:231][539]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-00.51.57:231][539]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-00.51.57:231][539]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-00.51.57:231][539]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-00.51.57:231][539]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-00.51.57:233][539]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-00.51.57:252][539]LogAudioMixer: Display: Using Audio Hardware Device HP E27k G5 (NVIDIA High Definition Audio)
+[2023.12.02-00.51.57:252][539]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-00.51.57:252][539]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-00.51.57:252][539]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-00.51.57:253][539]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.12.02-00.51.57:253][539]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.12.02-00.51.57:254][539]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.12.02-00.51.57:254][539]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.12.02-00.51.57:254][539]LogInit: FAudioDevice initialized with ID 3.
+[2023.12.02-00.51.57:254][539]LogAudio: Display: Audio Device (ID: 3) registered with world 'TopDownMap'.
+[2023.12.02-00.51.57:254][539]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.02-00.51.57:257][539]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.12.02-00.51.57:259][539]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.01-19.51.57
+[2023.12.02-00.51.57:259][539]LogWorld: Bringing up level for play took: 0.001387
+[2023.12.02-00.51.57:260][539]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.12.02-00.51.57:263][539]PIE: Server logged in
+[2023.12.02-00.51.57:264][539]PIE: Play in editor total start time 0.056 seconds.
+[2023.12.02-00.51.57:284][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:285][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:285][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:285][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:286][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:286][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:286][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:287][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:287][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:288][539]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:295][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:295][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:296][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:296][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:296][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:297][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:297][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:297][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:298][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.51.57:298][540]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.01:437][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.52.01:437][836]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.52.01:437][836]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.52.01:437][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.52.01:437][836]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.02-00.52.01:439][836]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-00.52.01:441][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.52.01:448][836]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.02-00.52.01:448][836]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.12.02-00.52.01:448][836]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.02-00.52.01:450][836]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.12.02-00.52.01:453][836]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.52.01:455][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.12.02-00.52.01:466][836]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.01:475][837]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.01:500][839]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.12.02-00.52.07:702][244]LogMaterial: Display: Material /Game/LevelPrototyping/Materials/M_PrototypeGrid.M_PrototypeGrid needed to have new flag set bUsedWithNanite !
+[2023.12.02-00.52.07:785][244]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.52.07:870][246]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.52.07:935][248]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.52.07:935][248]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.52.07:947][249]LogStaticMesh: Warning: Invalid usage flag on material [PreviewShadowIndicatorMaterial] for Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.52.07:947][249]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.52.16:137][788]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.02-00.52.16:142][788]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.02-00.52.16:143][788]LogWorldPartition: Display: GenerateStreaming started...
+[2023.12.02-00.52.16:143][788]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.12.02-00.52.16:143][788]LogWorldPartition: Display: GetPartitionedActors took 4 us (total: 18 us)
+[2023.12.02-00.52.16:143][788]LogWorldPartition: Display: GenerateStreaming took 105 us (total: 325 us)
+[2023.12.02-00.52.16:143][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-00.52.16:143][788]PIE: New page: PIE session: TopDownMap (Dec 1, 2023, 2:52:16 PM)
+[2023.12.02-00.52.16:143][788]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.52.16:147][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003646s)
+[2023.12.02-00.52.16:147][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.003667s)
+[2023.12.02-00.52.16:147][788]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.52.16:147][788]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.52.16:147][788]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.02-00.52.16:148][788]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.02-00.52.16:148][788]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.02-00.52.16:148][788]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.02-00.52.16:149][788]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.02-00.52.16:149][788]LogWorldPartition: Display: WorldPartition initialize took 820 us (total: 188 ms)
+[2023.12.02-00.52.16:149][788]LogPlayLevel: PIE: World Init took: (0.001567s)
+[2023.12.02-00.52.16:156][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.02-00.52.16:157][788]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.02-00.52.16:157][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-00.52.16:157][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-00.52.16:157][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-00.52.16:157][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-00.52.16:157][788]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-00.52.16:157][788]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.02-00.52.16:157][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-00.52.16:157][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-00.52.16:157][788]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-00.52.16:157][788]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-00.52.16:157][788]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-00.52.16:159][788]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-00.52.16:178][788]LogAudioMixer: Display: Using Audio Hardware Device HP E27k G5 (NVIDIA High Definition Audio)
+[2023.12.02-00.52.16:178][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-00.52.16:178][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-00.52.16:178][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-00.52.16:179][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.12.02-00.52.16:179][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.12.02-00.52.16:180][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.12.02-00.52.16:180][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.12.02-00.52.16:180][788]LogInit: FAudioDevice initialized with ID 4.
+[2023.12.02-00.52.16:180][788]LogAudio: Display: Audio Device (ID: 4) registered with world 'TopDownMap'.
+[2023.12.02-00.52.16:180][788]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.02-00.52.16:183][788]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.12.02-00.52.16:185][788]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.01-19.52.16
+[2023.12.02-00.52.16:185][788]LogWorld: Bringing up level for play took: 0.001402
+[2023.12.02-00.52.16:186][788]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2023.12.02-00.52.16:189][788]PIE: Server logged in
+[2023.12.02-00.52.16:190][788]PIE: Play in editor total start time 0.048 seconds.
+[2023.12.02-00.52.16:212][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:212][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:212][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:213][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:213][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:213][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:214][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:214][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:215][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:215][788]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:221][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:221][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:222][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:222][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:222][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:223][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:223][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:223][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:224][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.16:224][789]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.21:967][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.52.21:967][194]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.52.21:967][194]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.52.21:967][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.52.21:968][194]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.02-00.52.21:970][194]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-00.52.21:971][194]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.52.21:978][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.52.21:979][194]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.12.02-00.52.21:979][194]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.02-00.52.21:980][194]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.12.02-00.52.21:985][194]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.12.02-00.52.21:997][194]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.22:020][195]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.52.22:037][196]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.12.02-00.53.56:566][167]LogDerivedDataCache: C:/Users/SAwasthi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:03:39.231 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 121214 files in 104149 folders with total size 18382 MiB.
+[2023.12.02-00.55.10:394][845]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.10:419][846]LogMaterial: Display: Material /Game/LevelPrototyping/Materials/M_Solid.M_Solid needed to have new flag set bUsedWithNanite !
+[2023.12.02-00.55.10:477][846]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: ================================================
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Total job queries 125, among them cache hits 8 (6.40%)
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Tracking 78 distinct input hashes that result in 70 distinct outputs (89.74%)
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: RAM used: 1.97 MiB of 1.60 GiB budget. Usage: 0.12%
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Shaders Compiled: 1
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Jobs assigned 24, completed 1 (4.17%)
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Time job spent in pending queue: average 0.14 s, longest 1.19 s
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Job execution time: average 1.14 s, max 1.14 s
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Job life time (pending + execution): average 1.19 s, max 1.19
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.19 s
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 2.18 jobs/batch
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Average processing rate: 0.84 jobs/sec
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Total thread time: 0.431 s
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Total thread preprocess time: 0.127 s
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Percentage time preprocessing: 29.50%
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Effective parallelization: 0.36 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.43 sec, max 0.43 sec, min 0.43 sec)
+[2023.12.02-00.55.11:673][925]LogShaderCompilers: Display: ================================================
+[2023.12.02-00.55.14:050][ 48]Cmd: DELETE
+[2023.12.02-00.55.14:050][ 48]Cmd: ACTOR DELETE
+[2023.12.02-00.55.14:757][ 86]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.14:810][ 88]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.55.14:811][ 88]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.55.14:820][ 89]LogStaticMesh: Warning: Invalid usage flag on material [PreviewShadowIndicatorMaterial] for Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.14:820][ 89]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.17:268][255]Cmd: DELETE
+[2023.12.02-00.55.17:268][255]Cmd: ACTOR DELETE
+[2023.12.02-00.55.24:881][756]Cmd: DELETE
+[2023.12.02-00.55.24:881][756]Cmd: ACTOR DELETE
+[2023.12.02-00.55.24:883][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:884][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:884][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:885][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:885][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:886][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:887][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:887][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:888][756]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.24:896][756]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.12.02-00.55.24:897][756]LogEditorActor: Deleted 9 Actors (0.015 secs)
+[2023.12.02-00.55.26:377][844]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.26:397][845]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.27:490][914]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.27:585][916]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.55.27:593][917]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.55.27:605][918]LogStaticMesh: Warning: Invalid usage flag on material [PreviewShadowIndicatorMaterial] for Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.27:605][918]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.28:519][976]Cmd: DELETE
+[2023.12.02-00.55.28:519][976]Cmd: ACTOR DELETE
+[2023.12.02-00.55.28:520][976]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.28:527][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.12.02-00.55.28:529][976]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.29:261][ 17]Cmd: DELETE
+[2023.12.02-00.55.29:261][ 17]Cmd: ACTOR DELETE
+[2023.12.02-00.55.29:262][ 17]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.29:269][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.12.02-00.55.29:271][ 17]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.29:705][ 38]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.29:708][ 38]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.29:729][ 39]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.30:239][ 67]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.30:259][ 68]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.30:472][ 83]Cmd: DELETE
+[2023.12.02-00.55.30:472][ 83]Cmd: ACTOR DELETE
+[2023.12.02-00.55.30:473][ 83]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.30:481][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.12.02-00.55.30:482][ 83]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.30:939][107]Cmd: DELETE
+[2023.12.02-00.55.30:939][107]Cmd: ACTOR DELETE
+[2023.12.02-00.55.30:940][107]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.30:948][107]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.12.02-00.55.30:950][107]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.12.02-00.55.31:538][139]Cmd: DELETE
+[2023.12.02-00.55.31:538][139]Cmd: ACTOR DELETE
+[2023.12.02-00.55.31:539][139]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.31:547][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.12.02-00.55.31:549][139]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.12.02-00.55.32:052][164]Cmd: DELETE
+[2023.12.02-00.55.32:052][164]Cmd: ACTOR DELETE
+[2023.12.02-00.55.32:053][164]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.32:061][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.12.02-00.55.32:063][164]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.12.02-00.55.32:590][191]Cmd: DELETE
+[2023.12.02-00.55.32:591][191]Cmd: ACTOR DELETE
+[2023.12.02-00.55.32:592][191]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.32:600][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.12.02-00.55.32:601][191]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.12.02-00.55.33:124][219]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.33:128][219]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.33:146][220]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.33:619][246]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.33:640][247]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.33:763][256]Cmd: DELETE
+[2023.12.02-00.55.33:763][256]Cmd: ACTOR DELETE
+[2023.12.02-00.55.33:764][256]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.33:771][256]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.12.02-00.55.33:773][256]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.34:185][277]Cmd: DELETE
+[2023.12.02-00.55.34:185][277]Cmd: ACTOR DELETE
+[2023.12.02-00.55.34:187][277]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.34:194][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2023.12.02-00.55.34:196][277]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.34:829][313]Cmd: DELETE
+[2023.12.02-00.55.34:829][313]Cmd: ACTOR DELETE
+[2023.12.02-00.55.34:830][313]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.34:838][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.12.02-00.55.34:839][313]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.35:578][352]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.35:600][353]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.35:804][367]Cmd: DELETE
+[2023.12.02-00.55.35:804][367]Cmd: ACTOR DELETE
+[2023.12.02-00.55.35:805][367]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.35:813][367]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.12.02-00.55.35:814][367]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.36:433][401]Cmd: DELETE
+[2023.12.02-00.55.36:433][401]Cmd: ACTOR DELETE
+[2023.12.02-00.55.36:434][401]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.36:442][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.12.02-00.55.36:444][401]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.12.02-00.55.36:924][428]Cmd: DELETE
+[2023.12.02-00.55.36:924][428]Cmd: ACTOR DELETE
+[2023.12.02-00.55.36:926][428]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.36:933][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.12.02-00.55.36:934][428]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.37:332][448]Cmd: DELETE
+[2023.12.02-00.55.37:332][448]Cmd: ACTOR DELETE
+[2023.12.02-00.55.37:333][448]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.37:341][448]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2023.12.02-00.55.37:343][448]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.38:940][542]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.55.40:345][633]Cmd: DELETE
+[2023.12.02-00.55.40:345][633]Cmd: ACTOR DELETE
+[2023.12.02-00.55.40:347][633]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.40:355][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.12.02-00.55.40:356][633]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.12.02-00.55.40:839][659]Cmd: DELETE
+[2023.12.02-00.55.40:839][659]Cmd: ACTOR DELETE
+[2023.12.02-00.55.40:840][659]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.40:848][659]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2023.12.02-00.55.40:849][659]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.41:533][701]Cmd: DELETE
+[2023.12.02-00.55.41:533][701]Cmd: ACTOR DELETE
+[2023.12.02-00.55.41:534][701]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.41:542][701]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.12.02-00.55.41:543][701]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.42:400][754]Cmd: DELETE
+[2023.12.02-00.55.42:400][754]Cmd: ACTOR DELETE
+[2023.12.02-00.55.42:401][754]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.12.02-00.55.42:409][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.12.02-00.55.42:410][754]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.12.02-00.55.42:460][754]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:259][880]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.02-00.55.44:263][880]LogContentBundle: [TopDownMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2023.12.02-00.55.44:264][880]LogWorldPartition: Display: GenerateStreaming started...
+[2023.12.02-00.55.44:264][880]LogWorldPartition: Display: GetPartitionedActors started...
+[2023.12.02-00.55.44:264][880]LogWorldPartition: Display: GetPartitionedActors took 6 us (total: 25 us)
+[2023.12.02-00.55.44:264][880]LogWorldPartition: Display: GenerateStreaming took 53 us (total: 378 us)
+[2023.12.02-00.55.44:264][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.02-00.55.44:264][880]PIE: New page: PIE session: TopDownMap (Dec 1, 2023, 2:55:44 PM)
+[2023.12.02-00.55.44:264][880]LogPlayLevel: Creating play world package: /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.55.44:267][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002432s)
+[2023.12.02-00.55.44:267][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Maps/TopDownMap.TopDownMap to /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap (0.002456s)
+[2023.12.02-00.55.44:267][880]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.55.44:267][880]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.55.44:267][880]LogAIModule: Creating AISystem for world TopDownMap
+[2023.12.02-00.55.44:268][880]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2023.12.02-00.55.44:268][880]LogWorldPartition: Display: WorldPartition initialize started...
+[2023.12.02-00.55.44:268][880]LogWorldPartition: UWorldPartition::Initialize(Asset=TopDownMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2023.12.02-00.55.44:268][880]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2023.12.02-00.55.44:268][880]LogWorldPartition: Display: WorldPartition initialize took 516 us (total: 189 ms)
+[2023.12.02-00.55.44:268][880]LogPlayLevel: PIE: World Init took: (0.001364s)
+[2023.12.02-00.55.44:275][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.12.02-00.55.44:276][880]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.12.02-00.55.44:276][880]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.02-00.55.44:276][880]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.02-00.55.44:276][880]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.02-00.55.44:276][880]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.02-00.55.44:276][880]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.02-00.55.44:276][880]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.02-00.55.44:276][880]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.02-00.55.44:276][880]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.02-00.55.44:276][880]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.02-00.55.44:276][880]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.02-00.55.44:276][880]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.02-00.55.44:278][880]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.02-00.55.44:299][880]LogAudioMixer: Display: Using Audio Hardware Device HP E27k G5 (NVIDIA High Definition Audio)
+[2023.12.02-00.55.44:299][880]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.02-00.55.44:299][880]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.02-00.55.44:299][880]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.02-00.55.44:301][880]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.12.02-00.55.44:301][880]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.12.02-00.55.44:302][880]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.12.02-00.55.44:302][880]LogInit: FAudioDevice initialized with ID 5.
+[2023.12.02-00.55.44:302][880]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.12.02-00.55.44:302][880]LogAudio: Display: Audio Device (ID: 5) registered with world 'TopDownMap'.
+[2023.12.02-00.55.44:302][880]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.02-00.55.44:305][880]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2023.12.02-00.55.44:306][880]LogWorld: Bringing World /Game/TopDown/Maps/UEDPIE_0_TopDownMap.TopDownMap up for play (max tick rate 0) at 2023.12.01-19.55.44
+[2023.12.02-00.55.44:306][880]LogWorld: Bringing up level for play took: 0.000646
+[2023.12.02-00.55.44:308][880]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.12.02-00.55.44:311][880]PIE: Server logged in
+[2023.12.02-00.55.44:312][880]PIE: Play in editor total start time 0.048 seconds.
+[2023.12.02-00.55.44:333][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:333][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:333][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:334][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:334][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:335][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:335][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:335][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:336][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:337][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:337][880]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:347][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:347][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:347][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:348][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:348][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:348][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:349][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:349][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:350][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.44:351][881]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.47:998][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.55.47:998][127]LogWorld: BeginTearingDown for /Game/TopDown/Maps/UEDPIE_0_TopDownMap
+[2023.12.02-00.55.47:998][127]LogWorld: UWorld::CleanupWorld for TopDownMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.55.47:998][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.55.47:998][127]LogContentBundle: [TopDownMap(Standalone)] Deleting container.
+[2023.12.02-00.55.48:000][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.02-00.55.48:002][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.55.48:009][127]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.02-00.55.48:009][127]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2023.12.02-00.55.48:009][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.02-00.55.48:010][127]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.12.02-00.55.48:014][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.02-00.55.48:015][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.12.02-00.55.48:039][127]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.48:042][127]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.48:048][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.48:051][128]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2023.12.02-00.55.48:053][129]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.12.02-00.56.32:035][ 54]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd
+[2023.12.02-00.56.32:043][ 54]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequin_UE4/Animations/Jog_Fwd.Jog_Fwd
+[2023.12.02-00.56.32:199][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.32:199][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.56.32:246][ 54]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.12.02-00.56.32:438][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.32:438][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.56.32:512][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.32:518][ 54]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.32:567][ 54]LogSlate: Took 0.002513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.12.02-00.56.32:576][ 54]LogViewport: Scene viewport resized to 2111x1147, mode Windowed.
+[2023.12.02-00.56.32:641][ 54]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.12.02-00.56.34:950][153]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.35:010][155]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.56.35:010][155]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.56.35:034][156]LogStaticMesh: Warning: Invalid usage flag on material [PreviewShadowIndicatorMaterial] for Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.35:034][156]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.36:969][240]LogSlate: Window 'Jog_Fwd' being destroyed
+[2023.12.02-00.56.36:980][240]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.56.36:980][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.56.37:014][240]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.56.37:014][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.56.43:352][662]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.43:530][663]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn_Simple) ...
+[2023.12.02-00.56.43:549][663]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.43:565][664]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.50:865][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.Manny_calf_l_anim
+[2023.12.02-00.56.50:871][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.Manny_calf_r_anim
+[2023.12.02-00.56.50:879][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.Manny_clavicle_l_anim
+[2023.12.02-00.56.50:886][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.Manny_clavicle_r_anim
+[2023.12.02-00.56.50:892][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.Manny_foot_l_anim
+[2023.12.02-00.56.50:899][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.Manny_foot_r_anim
+[2023.12.02-00.56.50:906][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.Manny_hand_l_anim
+[2023.12.02-00.56.50:914][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.Manny_hand_r_anim
+[2023.12.02-00.56.50:921][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.Manny_lowerarm_l_anim
+[2023.12.02-00.56.50:928][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.Manny_lowerarm_r_anim
+[2023.12.02-00.56.50:936][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.Manny_thigh_l_anim
+[2023.12.02-00.56.50:942][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.Manny_thigh_r_anim
+[2023.12.02-00.56.50:950][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.Manny_upperarm_l_anim
+[2023.12.02-00.56.50:958][ 97]LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.Manny_upperarm_r_anim
+[2023.12.02-00.56.51:012][ 97]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/Mannequins/Meshes/SKM_Manny.SKM_Manny
+[2023.12.02-00.56.51:030][ 97]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny) ...
+[2023.12.02-00.56.51:060][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.51:060][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.56.51:069][ 97]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.12.02-00.56.51:283][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.56.51:407][ 97]LogViewport: Scene viewport resized to 2287x1853, mode Windowed.
+[2023.12.02-00.56.51:471][ 98]LogMaterial: Display: Material /Game/Characters/Mannequins/Materials/M_Mannequin.M_Mannequin needed to have new flag set bUsedWithNanite !
+[2023.12.02-00.56.51:537][ 98]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.56:316][216]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.56:316][216]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.56:316][216]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.57:099][244]LogSlate: Window 'SKM_Manny' being destroyed
+[2023.12.02-00.56.57:130][244]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.56.57:130][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.56.57:452][262]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.57:549][264]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.56.57:550][264]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorPlane] - forcing default material instead.
+[2023.12.02-00.56.57:558][265]LogStaticMesh: Warning: Invalid usage flag on material [PreviewShadowIndicatorMaterial] for Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.56.57:558][265]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.02:470][589]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:215][638]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:230][639]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:256][640]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:267][641]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:285][642]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:302][643]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:320][644]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:337][645]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:355][646]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:413][647]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:421][648]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:429][649]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:437][650]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:452][651]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:470][652]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:487][653]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:505][654]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:523][655]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:541][656]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:558][657]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:576][658]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:594][659]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:612][660]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:630][661]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:648][662]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:665][663]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:683][664]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:700][665]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:718][666]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:735][667]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:753][668]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:771][669]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:789][670]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:807][671]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:825][672]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:843][673]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:860][674]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:879][675]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:896][676]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.03:914][677]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.12:134][221]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.57.13:365][294]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownCharacter.BP_TopDownCharacter
+[2023.12.02-00.57.13:365][294]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.57.13:365][294]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.57.14:445][294]LogSlate: Took 0.000679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.12.02-00.57.14:521][295]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.14:521][295]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.18:964][554]LogViewport: Scene viewport resized to 2664x1520, mode Windowed.
+[2023.12.02-00.57.21:731][716]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.21:731][716]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.26:952][ 45]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.26:952][ 45]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.27:990][113]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.27:990][113]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.57.31:324][316]LogSlate: Window 'BP_TopDownCharacter' being destroyed
+[2023.12.02-00.57.31:333][316]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-00.57.31:333][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.02-00.57.34:922][560]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TopDown/Blueprints/BP_TopDownController.BP_TopDownController
+[2023.12.02-00.57.34:922][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.02-00.57.34:923][560]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-00.57.43:463][ 71]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.02-00.57.48:990][623]LogSlate: Window 'BP_TopDownController' being destroyed
+[2023.12.02-00.57.56:352][419]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/TopDown/Input/IMC_Default.IMC_Default
+[2023.12.02-00.58.25:825][906]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.12.02-00.58.25:825][906]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.12.02-00.58.46:300][282]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.12.02-00.58.47:630][432]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.12.02-00.58.47:631][432]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Maps/TopDownMap' took 0.025
+[2023.12.02-00.58.47:632][432]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Mannequins/Materials/M_Mannequin] ([1] browsable assets)...
+[2023.12.02-00.58.47:632][432]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.58.47:676][432]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/Mannequins/Materials/M_Mannequin.M_Mannequin]
+[2023.12.02-00.58.47:676][432]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Mannequins/Materials/M_Mannequin]
+[2023.12.02-00.58.47:699][432]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Materials/M_Mannequin_Auto1
+[2023.12.02-00.58.47:699][432]LogSavePackage: Moving '../../../../../../Users/SAwasthi/Documents/GitHub/YeahSureBuddy/ProjectYSB/Saved/M_Mannequin_Auto129AC29F348283986E88CE191024AE9A0.tmp' to '../../../../../../Users/SAwasthi/Documents/GitHub/YeahSureBuddy/ProjectYSB/Saved/Autosaves/Game/Characters/Mannequins/Materials/M_Mannequin_Auto1.uasset'
+[2023.12.02-00.58.47:700][432]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/Materials/M_PrototypeGrid] ([1] browsable assets)...
+[2023.12.02-00.58.47:700][432]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.58.47:712][432]OBJ SavePackage:     Rendered thumbnail for [Material /Game/LevelPrototyping/Materials/M_PrototypeGrid.M_PrototypeGrid]
+[2023.12.02-00.58.47:712][432]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Materials/M_PrototypeGrid]
+[2023.12.02-00.58.47:723][432]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/Materials/M_PrototypeGrid_Auto1
+[2023.12.02-00.58.47:723][432]LogSavePackage: Moving '../../../../../../Users/SAwasthi/Documents/GitHub/YeahSureBuddy/ProjectYSB/Saved/M_PrototypeGrid_Auto1109D972845297E2440F5E69B6A0C9B0E.tmp' to '../../../../../../Users/SAwasthi/Documents/GitHub/YeahSureBuddy/ProjectYSB/Saved/Autosaves/Game/LevelPrototyping/Materials/M_PrototypeGrid_Auto1.uasset'
+[2023.12.02-00.58.47:724][432]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/Materials/M_Solid] ([1] browsable assets)...
+[2023.12.02-00.58.47:725][432]LogStaticMesh: Warning: Invalid material [null] used on Nanite static mesh [EditorSphere] - forcing default material instead.
+[2023.12.02-00.58.47:732][432]OBJ SavePackage:     Rendered thumbnail for [Material /Game/LevelPrototyping/Materials/M_Solid.M_Solid]
+[2023.12.02-00.58.47:732][432]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Materials/M_Solid]
+[2023.12.02-00.58.47:735][432]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/Materials/M_Solid_Auto1
+[2023.12.02-00.58.47:735][432]LogSavePackage: Moving '../../../../../../Users/SAwasthi/Documents/GitHub/YeahSureBuddy/ProjectYSB/Saved/M_Solid_Auto195C3376C43E6B98F5D80ADAB65DE5C65.tmp' to '../../../../../../Users/SAwasthi/Documents/GitHub/YeahSureBuddy/ProjectYSB/Saved/Autosaves/Game/LevelPrototyping/Materials/M_Solid_Auto1.uasset'
+[2023.12.02-00.58.47:736][432]LogFileHelpers: Auto-saving content packages took 0.105
