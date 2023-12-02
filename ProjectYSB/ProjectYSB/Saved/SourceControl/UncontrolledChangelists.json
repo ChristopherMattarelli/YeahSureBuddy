@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/CMattarelli/Documents/GitHub/YeahSureBuddy/ProjectYSB/ProjectYSB/Content/Level_1.umap",
+				"C:/Users/CMattarelli/Documents/GitHub/YeahSureBuddy/ProjectYSB/ProjectYSB/Content/Levels/Level_1.umap",
+				"C:/Users/CMattarelli/Documents/GitHub/YeahSureBuddy/ProjectYSB/ProjectYSB/Content/Levels/Level_2.umap",
 				"C:/Users/SAwasthi/Documents/GitHub/YeahSureBuddy/ProjectYSB/ProjectYSB/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
 			]
 		}
